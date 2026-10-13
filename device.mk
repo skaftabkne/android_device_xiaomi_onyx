@@ -489,6 +489,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
     frameworks/native/data/etc/android.hardware.wifi.aware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.aware.xml
+# Maintainer Name
+PENGUIN_MAINTAINER := "SK" (Default: Unknown)
 
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := true (Default: false)
+
+# Whether Including Google Apps
+WITH_GAPPS := true (Default: true)
 # Vendor
 $(call inherit-product, vendor/xiaomi/onyx/onyx-vendor.mk)
