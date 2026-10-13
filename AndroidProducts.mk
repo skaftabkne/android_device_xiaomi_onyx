@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The PenguinOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
