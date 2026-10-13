@@ -1,0 +1,4 @@
+# device info
+ro.product.marketname=Poco F7
+ro.penguin.soc=Snapdragon 8s Gen 4
+ro.penguin.camera=50MP + 8MP + 20MP
